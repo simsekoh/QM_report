@@ -1,0 +1,402 @@
+		Quality  Match GmbH - bicycle project crowd evaluation
+				Author: Simon Kohlhepp
+		--------------------------------------
+9087 Datasets available
+90870 annotations
+		--------------------------------------
+Task 1:
+	a)	22 annotators participated
+	b)	durations: 	
+			max: 42398
+			min: 10
+			avg: 1284.3338725652031
+		--------------------------------------
+		Average duration per annotator: 	
+			annotator_01	1077.32 ms
+			annotator_02	1178.17 ms
+			annotator_03	1460.25 ms
+			annotator_04	1113.93 ms
+			annotator_05	1562.09 ms
+			annotator_06	1496.66 ms
+			annotator_07	1578.36 ms
+			annotator_08	1434.51 ms
+			annotator_09	1198.81 ms
+			annotator_10	1252.97 ms
+			annotator_11	1279.91 ms
+			annotator_12	1306.31 ms
+			annotator_13	1155.01 ms
+			annotator_14	1594.91 ms
+			annotator_15	1365.29 ms
+			annotator_16	1269.79 ms
+			annotator_17	991.89 ms
+			annotator_18	1592.58 ms
+			annotator_19	1687.78 ms
+			annotator_20	1173.15 ms
+			annotator_21	1238.92 ms
+			annotator_22	879.43 ms
+		--------------------------------------
+	c)	Annotations per annotator: 	
+			annotator_01	1280
+			annotator_02	7596
+			annotator_03	630
+			annotator_04	6421
+			annotator_05	3475
+			annotator_06	5337
+			annotator_07	2175
+			annotator_08	6537
+			annotator_09	4860
+			annotator_10	315
+			annotator_11	6436
+			annotator_12	6210
+			annotator_13	7078
+			annotator_14	1725
+			annotator_15	6088
+			annotator_16	5061
+			annotator_17	3485
+			annotator_18	5170
+			annotator_19	170
+			annotator_20	6126
+			annotator_21	2950
+			annotator_22	1745
+		--------------------------------------
+	d)	high disagreement: 	
+			100% disagreement rate: 		68 images
+			 80% disagreement rate: 		129 images
+			 60% disagreement rate: 		187 images
+			 40% disagreement rate: 		251 images
+			 20% disagreement rate: 		1075 images
+			  0% disagreement rate: 		7377 images
+		--------------------------------------
+Task 2:
+	a)	Flags used: 	
+		Flag: can't solve: 17 appearances in total
+		appearance per annotator: 
+			annotator_04	4
+			annotator_22	4
+			annotator_02	2
+			annotator_08	2
+			annotator_07	1
+			annotator_11	1
+			annotator_14	1
+			annotator_18	1
+			annotator_20	1
+		--------------------------------------
+		Flag: corrupt data: 4 appearances in total
+		appearance per annotator: 
+			annotator_18	2
+			annotator_06	1
+			annotator_08	1
+		--------------------------------------
+Task 3:
+		Is the reference set balanced?
+4586 yes
+4501 no
+-->0.5046770111147794 %
+--->  set is balanced
+		--------------------------------------
+Task 4:		Performance of the whole crowd: 
+	Predictions total: 90870
+	Accuracy: 0.9346759106415758
+	Precision: 0.9323770935800489
+	Recall/Sensitivity: 0.9386001265077323
+	F1-Score: 0.9354782608695652
+	Specificity: 0.9306798747306932
+	MCC: 0.8693528192435934
+		--------------------------------------
+		Performance of each annotator: 
+	______
+	annotator_01
+	Total annotated: 	1280 images
+	Average duration: 	1077.3234375 ms
+	Accuracy: 			0.9484375
+	Precision: 			0.9435364041604755
+	Recall/Sensitivity: 0.9577677224736049
+	Specificity: 0.9384116693679092
+	F1-Score: 			0.9505988023952096
+	MCC: 			0.8967934372229198
+	______
+	annotator_02
+	Total annotated: 	7596 images
+	Average duration: 	1178.1700895208005 ms
+	Accuracy: 			0.9348341232227488
+	Precision: 			0.9386993603411514
+	Recall/Sensitivity: 0.9300237655135991
+	Specificity: 0.9396166972958782
+	F1-Score: 			0.934341424592121
+	MCC: 			0.8697006066859816
+	______
+	annotator_03
+	Total annotated: 	630 images
+	Average duration: 	1460.2492063492064 ms
+	Accuracy: 			0.9285714285714286
+	Precision: 			0.9559322033898305
+	Recall/Sensitivity: 0.8980891719745223
+	Specificity: 0.9588607594936709
+	F1-Score: 			0.9261083743842364
+	MCC: 			0.8586781307810947
+	______
+	annotator_04
+	Total annotated: 	6421 images
+	Average duration: 	1113.926958417692 ms
+	Accuracy: 			0.9282043295436848
+	Precision: 			0.9229172843166321
+	Recall/Sensitivity: 0.9393482196741099
+	Specificity: 0.9163179916317992
+	F1-Score: 			0.9310602661881262
+	MCC: 			0.8563190578156725
+	______
+	annotator_05
+	Total annotated: 	3475 images
+	Average duration: 	1562.0892086330934 ms
+	Accuracy: 			0.936978417266187
+	Precision: 			0.9420871559633027
+	Recall/Sensitivity: 0.9329926178307779
+	Specificity: 0.941073512252042
+	F1-Score: 			0.9375178316690442
+	MCC: 			0.8739922955949245
+	______
+	annotator_06
+	Total annotated: 	5337 images
+	Average duration: 	1496.6597339329212 ms
+	Accuracy: 			0.9265504965336331
+	Precision: 			0.90144727773949
+	Recall/Sensitivity: 0.9610580455547392
+	Specificity: 0.8906309751434034
+	F1-Score: 			0.930298719772404
+	MCC: 			0.8547965662326686
+	______
+	annotator_07
+	Total annotated: 	2175 images
+	Average duration: 	1578.3622988505747 ms
+	Accuracy: 			0.9149425287356322
+	Precision: 			0.9089301503094607
+	Recall/Sensitivity: 0.9261261261261261
+	Specificity: 0.9032863849765258
+	F1-Score: 			0.9174475680499777
+	MCC: 			0.8298991572882952
+	______
+	annotator_08
+	Total annotated: 	6537 images
+	Average duration: 	1434.5129264188465 ms
+	Accuracy: 			0.899189230533884
+	Precision: 			0.8922668240850059
+	Recall/Sensitivity: 0.9113656918902623
+	Specificity: 0.8866459627329193
+	F1-Score: 			0.9017151379567487
+	MCC: 			0.7984576285503093
+	______
+	annotator_09
+	Total annotated: 	4860 images
+	Average duration: 	1198.8141975308642 ms
+	Accuracy: 			0.9333333333333333
+	Precision: 			0.922486879289463
+	Recall/Sensitivity: 0.9453868431940422
+	Specificity: 0.9214081047891937
+	F1-Score: 			0.9337964854924398
+	MCC: 			0.8669447194129298
+	______
+	annotator_10
+	Total annotated: 	315 images
+	Average duration: 	1252.974603174603 ms
+	Accuracy: 			0.8888888888888888
+	Precision: 			0.84375
+	Recall/Sensitivity: 0.9700598802395209
+	Specificity: 0.7972972972972973
+	F1-Score: 			0.9025069637883009
+	MCC: 			0.7850249915423119
+	______
+	annotator_11
+	Total annotated: 	6436 images
+	Average duration: 	1279.9106587942822 ms
+	Accuracy: 			0.9362958359229335
+	Precision: 			0.9496334077143768
+	Recall/Sensitivity: 0.9220055710306406
+	Specificity: 0.9507020280811233
+	F1-Score: 			0.9356155778894473
+	MCC: 			0.8729770698731296
+	______
+	annotator_12
+	Total annotated: 	6210 images
+	Average duration: 	1306.3054750402578 ms
+	Accuracy: 			0.9297906602254429
+	Precision: 			0.9136133452487339
+	Recall/Sensitivity: 0.9545596016184251
+	Specificity: 0.9032365699032365
+	F1-Score: 			0.9336377473363775
+	MCC: 			0.8601145242000394
+	______
+	annotator_13
+	Total annotated: 	7078 images
+	Average duration: 	1155.0111613450126 ms
+	Accuracy: 			0.9468776490534049
+	Precision: 			0.9485273091221047
+	Recall/Sensitivity: 0.9442072302875035
+	Specificity: 0.9495091164095372
+	F1-Score: 			0.9463623395149786
+	MCC: 			0.8937551697080577
+	______
+	annotator_14
+	Total annotated: 	1725 images
+	Average duration: 	1594.9089855072464 ms
+	Accuracy: 			0.9466666666666667
+	Precision: 			0.9466975666280417
+	Recall/Sensitivity: 0.9466975666280417
+	Specificity: 0.9466357308584686
+	F1-Score: 			0.9466975666280417
+	MCC: 			0.8933332974865104
+	______
+	annotator_15
+	Total annotated: 	6088 images
+	Average duration: 	1365.2917214191853 ms
+	Accuracy: 			0.9484231274638634
+	Precision: 			0.9579266240323123
+	Recall/Sensitivity: 0.9377265238879736
+	Specificity: 0.9590566655748444
+	F1-Score: 			0.9477189477189477
+	MCC: 			0.8970372576679453
+	______
+	annotator_16
+	Total annotated: 	5061 images
+	Average duration: 	1269.7931238885596 ms
+	Accuracy: 			0.9423038925113614
+	Precision: 			0.9578482537133681
+	Recall/Sensitivity: 0.9273221919937816
+	Specificity: 0.9577974276527331
+	F1-Score: 			0.9423380726698263
+	MCC: 			0.8851026135593713
+	______
+	annotator_17
+	Total annotated: 	3485 images
+	Average duration: 	991.8863701578192 ms
+	Accuracy: 			0.9420373027259684
+	Precision: 			0.9634649381261049
+	Recall/Sensitivity: 0.9211267605633803
+	Specificity: 0.9637426900584796
+	F1-Score: 			0.9418202764976958
+	MCC: 			0.8850172938800408
+	______
+	annotator_18
+	Total annotated: 	5170 images
+	Average duration: 	1592.5822050290135 ms
+	Accuracy: 			0.9363636363636364
+	Precision: 			0.9210134128166915
+	Recall/Sensitivity: 0.9548088064889919
+	Specificity: 0.9178612940720651
+	F1-Score: 			0.9376066755167836
+	MCC: 			0.873309744311471
+	______
+	annotator_19
+	Total annotated: 	165 images
+	Average duration: 	1687.7757575757576 ms
+	Accuracy: 			0.9470588235294117
+	Precision: 			0.9438202247191011
+	Recall/Sensitivity: 0.9545454545454546
+	Specificity: 0.9390243902439024
+	F1-Score: 			0.9491525423728814
+	MCC: 			0.8940035714670157
+	______
+	annotator_20
+	Total annotated: 	6126 images
+	Average duration: 	1173.149200130591 ms
+	Accuracy: 			0.9482533463924258
+	Precision: 			0.9465398491308625
+	Recall/Sensitivity: 0.9493421052631579
+	Specificity: 0.9471808165910564
+	F1-Score: 			0.947938906224339
+	MCC: 			0.8965070109607102
+	______
+	annotator_21
+	Total annotated: 	2950 images
+	Average duration: 	1238.9223728813558 ms
+	Accuracy: 			0.94
+	Precision: 			0.9348404255319149
+	Recall/Sensitivity: 0.9468013468013468
+	Specificity: 0.9331058020477816
+	F1-Score: 			0.9407828705252593
+	MCC: 			0.8800570386009092
+	______
+	annotator_22
+	Total annotated: 	1745 images
+	Average duration: 	879.4349570200573 ms
+	Accuracy: 			0.9421203438395416
+	Precision: 			0.9334836527621195
+	Recall/Sensitivity: 0.9517241379310345
+	Specificity: 0.9325714285714286
+	F1-Score: 			0.9425156516789983
+	MCC: 			0.8844140772155367
+	______
+NOTE: annotator_19 had 5 negative duration_ms values. These annotations have been eliminated before computing the scores.
+
+		--------------------------------------
+Annotators ranked by Matthews correlation coefficient
+			0.8970372576679453	annotator_15
+			0.8967934372229198	annotator_01
+			0.8965070109607102	annotator_20
+			0.8940035714670157	annotator_19
+			0.8937551697080577	annotator_13
+			0.8933332974865104	annotator_14
+			0.8851026135593713	annotator_16
+			0.8850172938800408	annotator_17
+			0.8844140772155367	annotator_22
+			0.8800570386009092	annotator_21
+			0.8739922955949245	annotator_05
+			0.873309744311471	annotator_18
+			0.8729770698731296	annotator_11
+			0.8697006066859816	annotator_02
+			0.8669447194129298	annotator_09
+			0.8601145242000394	annotator_12
+			0.8586781307810947	annotator_03
+			0.8563190578156725	annotator_04
+			0.8547965662326686	annotator_06
+			0.8298991572882952	annotator_07
+			0.7984576285503093	annotator_08
+			0.7850249915423119	annotator_10
+		--------------------------------------
+Annotators ranked by average duration
+			879.4349570200573	annotator_22
+			991.8863701578192	annotator_17
+			1077.3234375	annotator_01
+			1113.926958417692	annotator_04
+			1155.0111613450126	annotator_13
+			1173.149200130591	annotator_20
+			1178.1700895208005	annotator_02
+			1198.8141975308642	annotator_09
+			1238.9223728813558	annotator_21
+			1252.974603174603	annotator_10
+			1269.7931238885596	annotator_16
+			1279.9106587942822	annotator_11
+			1306.3054750402578	annotator_12
+			1365.2917214191853	annotator_15
+			1434.5129264188465	annotator_08
+			1460.2492063492064	annotator_03
+			1496.6597339329212	annotator_06
+			1562.0892086330934	annotator_05
+			1578.3622988505747	annotator_07
+			1592.5822050290135	annotator_18
+			1594.9089855072464	annotator_14
+			1687.7757575757576	annotator_19
+		--------------------------------------
+Annotators ranked by amount of annotations
+			7596	annotator_02
+			7078	annotator_13
+			6537	annotator_08
+			6436	annotator_11
+			6421	annotator_04
+			6210	annotator_12
+			6126	annotator_20
+			6088	annotator_15
+			5337	annotator_06
+			5170	annotator_18
+			5061	annotator_16
+			4860	annotator_09
+			3485	annotator_17
+			3475	annotator_05
+			2950	annotator_21
+			2175	annotator_07
+			1745	annotator_22
+			1725	annotator_14
+			1280	annotator_01
+			630	annotator_03
+			315	annotator_10
+			165	annotator_19
+		--------------------------------------
