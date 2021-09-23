@@ -23,7 +23,7 @@ with open('./Rawdata/anonymized_project.json', 'r') as json_file:
 
 
 #read references
-with open('../Rawdata/references.json','r') as json_file2:
+with open('./Rawdata/references.json','r') as json_file2:
 	data2= json_file2.read()
 
 # parse files
@@ -485,7 +485,7 @@ for i in annotators:
 #--------------------------------------------------------------------------------------------
 #plot bar chart average durations
 dtf= pd.DataFrame(annotators_duration, annotators)
-ax = dtf.sort_values(0).plot(kind="bar", width=0.8)
+ax = dtf.sort_values(0).plot(kind="bar", width=0.8, figsize=(15.0,7.5))
 totals= []
 for i in ax.patches:
     totals.append(i.get_width())
@@ -494,7 +494,8 @@ for p in ax.patches:
      ax.annotate(str(round(p.get_height(),2)), (p.get_x() , p.get_height()+20))
 ax.grid(axis="y")
 ax.get_legend().remove()
-
+plt.tight_layout()
+plt.subplots_adjust(top=0.9, bottom=0.1,left=0.05,right=0.975)
 plt.suptitle("annotation durations: average", fontsize=20)
 
 plt.savefig('./Plots/AD_complete.png', dpi=300)
